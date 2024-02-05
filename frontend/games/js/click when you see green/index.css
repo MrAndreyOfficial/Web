@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 500ms;
+    cursor: pointer;
+    padding: 6px 100px;
+}
+
+main {
+    #game-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+
+        #tip {
+            font-size: 20px;
+        }
+    
+        #score-text {
+            font-size: 50px;
+        }
+    
+        #tip {
+            text-align: center;
+        }
+        
+        #score-text, #tip {
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    #gameover-panel {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        height: 90vh;
+
+        #gameover-text {
+            color: darkred;
+            font-size: 40px;
+        }
+
+        #reset-btn {
+            background-color: red;
+        }
+
+        #reset-btn:hover {
+            background-color: darkred;
+            padding: 0 160px;
+            color: #ccc;
+        }
+    }
+}
