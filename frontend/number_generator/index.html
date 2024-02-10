@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="has-text-centered p-3">
+        <h1 class="title is-1"><a href="index.html" class="has-text-success">Number Generator</a></h1>
+    </header>
+    <main class="container is-flex is-justify-content-center is-align-items-center">
+        <div class="box">
+            <div class="field is-flex is-align-items-center">
+                <label for="min-number-box">Min Number: </label>
+                <div class="control">
+                    <input type="number" class="input" id="min-number-box">
+                </div>
+            </div>
+            <div class="field is-flex is-align-items-center">
+                <label for="max-number-box">Max Number: </label>
+                <div class="control">
+                    <input type="number" class="input" id="max-number-box">
+                </div>
+            </div>
+            <div class="buttons is-centered">
+                <button class="button is-primary" id="generate-button">Generate</button>
+            </div>
+            <p class="has-text-primary has-text-centered" id="generated-number"></p>
+        </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
