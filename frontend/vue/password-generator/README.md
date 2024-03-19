@@ -15,3 +15,7 @@ pnpm dev
 ```sh
 pnpm build
 ```
+
+## Screenshots
+![generator](./screenshots/generator.jpg)
+![generated-password](./screenshots/generated_password.jpg)
