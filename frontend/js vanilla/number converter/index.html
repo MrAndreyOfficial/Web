@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main class="flex justify-content-center align-items-center flex-direction-column">
+        <div class="field">
+            <label class="flex flex-direction-column">
+                <span class="text">Value</span>
+                <input type="text" class="input" id="value-box">
+            </label>
+        </div>
+        <div class="field">
+            <label class="flex flex-direction-column">
+                <span class="text">Converted value</span>
+                <input type="text" class="input" id="converted-value-box" readonly>
+            </label>
+        </div>
+        <select id="selection-type">
+            <option disabled selected>Select type</option>
+            <option value="int" class="type">Integer</option>
+            <option value="float" class="type">Float</option>
+        </select>
+        <button class="button" id="convertButton">Convert</button>
+    </main>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
