@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number generator</title>
+    <link rel="shortcut icon" href="./imgs/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body style="background-color: #6d6d6d;">
+    <main>
+        <div class="wrapper flex">
+            <form class="form flex">
+                <div class="form-control">
+                    <label class="control flex">
+                        <span class="label-text">Min Number</span>
+                        <input type="number" id="min-number" class="input">
+                    </label>
+                </div>
+                <div class="form-control">
+                    <label class="control flex">
+                        <span class="label-text">Max Number</span>
+                        <input type="number" id="max-number" class="input">
+                    </label>
+                </div>
+                <div class="form-control">
+                    <button type="button" class="button" id="generate-button">Generate</button>
+                </div>
+                <div class="form-control">
+                    <p id="generated-number">Generated number: 0</p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
