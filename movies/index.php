@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <div id="cards" class="m-5 is-flex">
+        <div id="cards" class="m-5 is-flex is-justify-content-center is-flex-wrap-wrap">
             <?php
                 require_once './sql.php';
 
