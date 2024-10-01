@@ -1,0 +1,15 @@
+* {
+    border: none !important;
+}
+
+#cards {
+    gap: 10px;
+}
+
+.card {
+    max-width: 400px;
+}
+
+img {
+   width: 230px;
+}
