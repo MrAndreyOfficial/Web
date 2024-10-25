@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <h1><a href="index.html" class="link" style="font-size: 30px;">Password Generator</a></h1>
+    </header>
+    <main>
+        <div class="generator flex flex-direction-column align-items-center justify-content-center">
+            <input type="text" class="input" id="password-length" placeholder="Length">
+            <div class="buttons">
+                <button class="button" id="generate-button">Generate</button>
+                <button class="button" id="reset-button">Reset</button>
+            </div>
+            <p id="password">Generated password</p>
+        </div>
+    </main>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

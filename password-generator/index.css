@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Inter', monospace, serif;
+}
+
+:root {
+    --black: #141414;
+    --link: #262626;
+    --white: #FFFFFF;
+    --link-font-size: 18px;
+    --input-padding-left-right: 14px;
+    --input-padding-top-down: 20px;
+}
+
+#password {
+    font-size: 30px;
+}
+
+.generator {
+    gap: 10px;
+    height: 80vh;
+}
+
+.header {
+    padding: 30px 140px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--link);
+    font-size: var(--link-font-size);
+}
+
+.buttons {
+    gap: 6px;
+
+    flex-direction: row !important;
+    -ms-flex-direction: row !important;
+}
+
+.button {
+    padding: 15px 55px;
+    background-color: var(--black);
+    color: var(--white);
+    border: 3px solid var(--black);
+}
+
+.input {
+    padding: var(--input-padding-left-right) 0 var(--input-padding-left-right) var(--input-padding-top-down);
+    background-color: var(--black);
+    color: var(--white);
+    width: 350px;
+}
+
+.button, .input {
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.flex, .buttons {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
