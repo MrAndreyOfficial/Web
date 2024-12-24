@@ -1,0 +1,22 @@
+th, td {
+    font-size: 21px;
+    width: 30%;
+}
+
+td {
+    cursor: pointer;
+}
+
+.btn {
+    width: 120px;
+}
+
+textarea {
+    resize: none;
+}
+
+input.form-control, textarea.form-control {
+    width: 330px;
+    height: 40px;
+    font-size: 21px;
+}
