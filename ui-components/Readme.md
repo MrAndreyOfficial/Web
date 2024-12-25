@@ -13,7 +13,7 @@ This library has only components, not a layout.
 </div>
 ```
 
-![button-group-no-addons](./screenshots/buttons-group-no-addons.jpg)
+![button-group-no-addons](./screenshots/button-group-no-addons.jpg)
 
 ```
 <div class="ui-buttons ui-has-addons">
@@ -24,7 +24,7 @@ This library has only components, not a layout.
 </div>
 ```
 
-![button-group-addons](./screenshots/buttons-group-addons.jpg)
+![button-group-addons](./screenshots/button-group-addons.jpg)
 
 ### Card:
 
