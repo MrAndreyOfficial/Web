@@ -1,0 +1,24 @@
+.container {
+    height: 90vh;
+}
+
+.box {
+    gap: 12px;
+}
+
+.input {
+    min-width: 500px;
+}
+
+.button {
+    min-width: 210px;
+}
+
+.button, .input {
+    font-size: 18px;
+}
+
+th, td {
+    width: 33vw;
+    font-size: 21px;
+}
