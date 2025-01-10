@@ -1,0 +1,47 @@
+* {
+  font-family: 'Montserrat', monospace;
+  font-weight: bold;
+}
+
+.cell {
+  width: 150px;
+  height: 150px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  transition: 300ms;
+  font-size: 60px;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.tip {
+  font-size: 30px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.board, .app {
+  flex-direction: column;
+}
+
+.board, .board-row {
+  display: flex;
+  gap: 9px;
+}
+
+@media screen and (max-width: 515px) {
+  .cell {
+    width: 120px;
+    height: 120px;
+  }
+}
