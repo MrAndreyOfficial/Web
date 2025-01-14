@@ -1,0 +1,24 @@
+* {
+    border-radius: 0 !important;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.btn {
+    width: 150px;
+}
+
+.form-control {
+    width: 330px;
+}
+
+.card {
+    min-width: 350px;
+    max-width: 500px;
+}
+
+.cards {
+    margin-top: 90px;
+}
