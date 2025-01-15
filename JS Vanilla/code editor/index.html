@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.3/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class="textareas is-flex">
+            <textarea class="textarea" id="html-code" placeholder="HTML"></textarea>
+            <textarea class="textarea" id="css-code" placeholder="CSS"></textarea>
+            <textarea class="textarea" id="js-code" placeholder="Javascript"></textarea>
+        </div>
+        <iframe class="is-flex iframe mt-3">
+        </iframe>
+        <div class="buttons is-justify-content-right mt-3 mr-3">
+            <button class="button is-success" id="run-button">Run</button>
+            <button class="button is-danger" id="clear-button">Clear</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

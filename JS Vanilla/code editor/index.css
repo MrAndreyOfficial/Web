@@ -1,0 +1,18 @@
+.textarea {
+    font-size: 21px;
+    resize: vertical;
+    width: 33vw;
+    min-width: 33vw;
+    height: 33vh;
+}
+
+.button {
+    font-size: 21px;
+    width: 210px;
+}
+
+.iframe {
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
