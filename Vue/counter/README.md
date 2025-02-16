@@ -1,6 +1,8 @@
 Use [pnpm](https://pnpm.io/) to get started:<br>
 
-Used [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to save and load data.
+Used: 
+1. [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to save and load data.
+2. [Vue](https://vuejs.org/)
 
 ![counter](./screenshots/counter.png)
 
