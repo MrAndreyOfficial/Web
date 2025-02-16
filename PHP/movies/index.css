@@ -1,0 +1,12 @@
+.search-bar {
+    min-width: 21%;
+}
+
+.border-radius-zero {
+    border-radius: 0;
+}
+
+.card {
+    min-width: 15vw;
+    max-width: 30vw;
+}
