@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="flex align-center justify-center" style="height: 90vh;">
+        <section class="flex flex-column">
+            <div class="flex flex-column gap-1">
+                <input type="number" class="input" id="min-number" placeholder="Min">
+                <input type="number" class="input" id="max-number" placeholder="Max">
+            </div>
+            <div class="buttons">
+                <button class="button" id="generate-button">Generate</button>
+            </div>
+            <p id="generated-number">0</p>
+        </section>
+    </div>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
