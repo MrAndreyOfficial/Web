@@ -1,0 +1,12 @@
+.input {
+    max-width: 25%;
+}
+
+.card {
+    width: 25vw;
+    height: fit-content;
+}
+
+.input, .button {
+    border-radius: 0;
+}
