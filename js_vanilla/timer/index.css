@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#timer-text {
+    color: #FFF;
+    font-size: 72px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 42px;
+    border-radius: 20px;
+}
+
+.button {
+    font-size: 33px;
+    padding: 16px 63px;
+    background-color: rgb(191, 107, 107);
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    transition: 200ms;
+}
+
+.button:enabled:hover {
+    cursor: pointer;
+    background-color: rgb(217, 88, 88);
+    color: white;
+}
