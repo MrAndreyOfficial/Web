@@ -1,0 +1,15 @@
+article#hero {
+    padding: 32px 0 44px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+article#hero > .title {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+article#hero > .button-wrapper {
+    margin-top: 20px;
+}

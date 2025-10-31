@@ -1,0 +1,38 @@
+article#talk-it {
+    margin: 16px;
+}
+
+article#talk-it .title {
+    font-size: 22px;
+}
+
+article#talk-it .description {
+    color: white;
+    font-size: 14px;
+}
+
+.talk-it-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.talk-it-container {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 304px;
+    gap: 40px;
+    background-color: #121212;
+}
+
+.talk-it-container .article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.talk-it-container img {
+    position: relative;
+    bottom: -2px;
+}

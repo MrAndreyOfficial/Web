@@ -1,0 +1,41 @@
+.cards {
+    padding: 8px 16px;
+}
+
+.cards > .row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.row .title {
+    font-size: 22px;
+}
+
+.cards > .row .description {
+    color: white;
+    font-size: 14px;
+}
+
+.cards .img-wrapper {
+    position: relative;
+    bottom: -4px;
+}
+
+.cards .button-wrapper {
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.cards .card {
+    background-color: #1D1D1D;
+    border-radius: 20px;
+    padding: 16px 16px 0 16px;
+}
