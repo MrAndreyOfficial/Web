@@ -1,0 +1,26 @@
+.link {
+    text-decoration: none;
+}
+
+.btn {
+    min-width: 150px;
+}
+
+input.form-control {
+    min-width: 300px;
+}
+
+input.form-control, .btn {
+    border-radius: 0;
+}
+
+.cards {
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    
+    width: 30%;
+}
