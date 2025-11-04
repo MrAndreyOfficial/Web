@@ -1,0 +1,82 @@
+* {
+    font-family: 'Montserrat', monospace, sans-serif;
+}
+
+body {
+    background-color: #2148C0;
+    background-image: url('imgs/bg.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    font-size: 14px;
+    padding: 12px 51px;
+    outline: none;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.input::placeholder {
+    color: #FFF;
+}
+
+.login-form > .form-header {
+    margin-bottom: 71px;
+}
+
+.login-form > .form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-form > .form-body .input-icon {
+    position: relative;
+    left: 30px;
+    top: 2px;
+}
+
+.login-form > .form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 20px;
+    margin-top: 43px;
+    gap: 11px;
+}
+
+.login-button {
+    padding: 12px 110px;
+    font-size: 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 30%);
+    color: #2148C0;
+    outline: none;
+    border: none;
+    background-color: #FFF;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+}
