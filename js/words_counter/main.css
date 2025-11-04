@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #28293D;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+#text-area {
+    resize: none;
+    width: 1242px;
+    height: 700px;
+    outline: none;
+    background-color: #1B1C27;
+    color: #BCBCBC;
+    font-size: 24px;
+    border: none;
+    border-radius: 40px;
+    padding: 32px 42px;
+}
+
+#counters {
+    display: flex;
+    gap: 67px;
+    font-size: 24px;
+    color: #FFF;
+    margin-top: 31px;
+}
