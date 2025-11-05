@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#counter-text {
+    font-size: 63px;
+    user-select: none;
+    transition: 200ms;
+}
+
+html[data-theme="dark"] #counter-text {
+    color: white;
+}
+
+body {
+    transition: 200ms;
+}
+
+html[data-theme="dark"] body {
+    background-color: black;
+}
+
+.counter {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.counter > .main {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    font-size: 42px;
+    padding: 21px 33px;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+}
+
+html[data-theme="light"] .button:hover {
+    background-color: black;
+}
+
+html[data-theme="dark"] .button:hover {
+    background-color: #B7B7B7;
+}
