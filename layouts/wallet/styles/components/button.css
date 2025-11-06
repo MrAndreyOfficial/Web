@@ -1,0 +1,33 @@
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.button.bg-transparent {
+    color: #FFFFFF;
+}
+
+.button.primary {
+    background-color: #BFAFF2;
+    color: #333333;
+    padding: 9px 61px;
+}
+
+.button.secondary {
+    background-color: #F8D57E;
+    color: #333333;
+    padding: 9px 36px;
+}

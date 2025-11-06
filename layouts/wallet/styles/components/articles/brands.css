@@ -1,0 +1,34 @@
+article#brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article#brands .line {
+    border: 1px solid rgba(255, 255, 255, 20%);
+    border-radius: 100px;
+    width: 1080px;
+}
+
+article#brands .img-wrapper {
+    padding: 67px 0;
+}
+
+article#brands img {
+    width: 931px;
+}
+
+article#brands img:last-of-type {
+    display: none;
+}
+
+@media screen and (max-width: 1337px) {
+    article#brands img {
+        display: none;
+    }
+
+    article#brands img:last-of-type {
+        display: inline;
+        width: 600px;
+    }
+}

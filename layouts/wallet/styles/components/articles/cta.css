@@ -1,0 +1,41 @@
+article#cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding: 100px 0;
+}
+
+article#cta .article-title {
+    color: #FFF;
+    font-size: 60px;
+}
+
+article#cta .article-description {
+    color: rgba(255, 255, 255, 40%);
+    font-size: 18px;
+}
+
+article#cta .article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+article#cta .article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1337px) {
+    article#cta {
+        flex-direction: column;
+        gap: 60px;
+        text-align: center;
+    }
+
+    article#cta .article-title {
+        font-size: 40px;
+    }
+}

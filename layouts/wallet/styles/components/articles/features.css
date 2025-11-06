@@ -1,0 +1,31 @@
+article#features {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.feature-list {
+    list-style: none;
+    text-align: center;
+    gap: 106px;
+    color: #FFF;
+    display: flex;
+}
+
+.feature-list .feature-title {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10%;
+}
+
+.feature-list .feature-description {
+    opacity: 40%;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1337px) {
+    .feature-list {
+        flex-direction: column;
+    }
+}

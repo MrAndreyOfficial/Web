@@ -1,0 +1,11 @@
+article#product {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+@media screen and (max-width: 1337px) {
+    article#product img {
+        width: 800px;
+    }
+}

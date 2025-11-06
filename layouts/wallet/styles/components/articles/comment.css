@@ -1,0 +1,46 @@
+article#comment {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+article#comment > .article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #BFAFF2;
+    border-radius: 20px;
+    padding: 83px 162px;
+}
+
+article#comment .article-description {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+article#comment .person-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+article#comment .person-fullname {
+    color: rgba(43, 43, 43, 40%);
+}
+
+article#comment .stars {
+    display: flex;
+    gap: 5px;
+}
+
+article#comment .right-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media screen and (max-width: 1337px) {
+    article#comment > .article-content {
+        max-width: 700px;
+    }
+}
