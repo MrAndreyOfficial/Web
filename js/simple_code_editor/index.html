@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="is-flex is-flex-direction-column is-gap-1">
+        <div class="button-wrapper has-text-left">
+            <button class="button is-primary" id="run-button">Run</button>
+        </div>
+        <textarea class="textarea" id="html-code" placeholder="HTML"></textarea>
+        <textarea class="textarea" id="css-code" placeholder="CSS"></textarea>
+        <textarea class="textarea" id="js-code" placeholder="JavaScript"></textarea>
+    </div>
+    <iframe id="output"></iframe>
+    <script src="index.js"></script>
+</body>
+</html>

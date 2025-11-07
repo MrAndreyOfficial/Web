@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    padding: 10px;
+}
+
+.textarea {
+    box-shadow: none;
+    resize: none;
+}
+
+#output {
+    border: 2px solid #2e2e2e;
+    border-radius: 6px;
+    width: 80%;
+    height: 40vh;
+    margin-top: 30px;
+}
