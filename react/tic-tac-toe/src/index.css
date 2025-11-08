@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  height: 90vh;
+}
+
+.cell {
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+}
+
+.cell:not(:first-of-type) {
+  margin-left: 12px;
+}
+
+.tip {
+  font-size: 42px;
+}
+
+.button.is-danger {
+  font-size: 21px;
+  padding: 9px 72px;
+}
