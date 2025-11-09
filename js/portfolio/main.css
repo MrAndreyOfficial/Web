@@ -1,0 +1,12 @@
+#search-box {
+    width: 250px;
+}
+
+.input, .button {
+    border-radius: 0;
+}
+
+.card {
+    width: 500px;
+    height: fit-content;
+}
